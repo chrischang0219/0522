@@ -15,16 +15,13 @@
   align-self: center;
   align-items: center;
   padding-top: var(--dl-space-space-threeunits);
-  padding-left: var(--dl-space-space-fiveunits);
   padding-right: var(--dl-space-space-fiveunits);
   padding-bottom: var(--dl-space-space-threeunits);
   justify-content: space-between;
 }
-.gh-logo {
-  color: rgb(255, 255, 255);
-  font-size: 32px;
-  font-style: normal;
-  font-weight: 600;
+.gh-image {
+  width: 200px;
+  object-fit: cover;
 }
 .gh-desktop-menu {
   display: flex;
@@ -67,12 +64,12 @@
   flex-direction: row;
   justify-content: center;
 }
-.gh-image {
+.gh-image1 {
   width: 100px;
   object-fit: cover;
   text-decoration: none;
 }
-.gh-image1 {
+.gh-image2 {
   width: 100px;
   object-fit: cover;
   text-decoration: none;
@@ -113,7 +110,7 @@
   margin-bottom: var(--dl-space-space-threeunits);
   justify-content: space-between;
 }
-.gh-logo1 {
+.gh-logo {
   color: rgb(255, 255, 255);
   font-size: 32px;
   font-style: normal;
@@ -182,12 +179,15 @@
     background-color: #B9B9B9;
   }
   .gh-navbar {
-    top: -12px;
+    top: -22px;
     flex: 1;
-    left: 59px;
-    width: 1571px;
+    left: 31px;
+    width: 1496px;
+    margin: auto;
     position: absolute;
     margin-top: 0px;
+    padding-left: 0px;
+    padding-right: 4px;
   }
   .gh-navlink {
     color: rgb(255, 255, 255);
@@ -203,11 +203,11 @@
   .gh-navlink3 {
     color: rgb(255, 255, 255);
   }
-  .gh-image {
+  .gh-image1 {
     width: 20px;
     height: 20px;
   }
-  .gh-image1 {
+  .gh-image2 {
     width: 20px;
     height: 20px;
   }
@@ -227,7 +227,7 @@
     padding: var(--dl-space-space-unit);
     flex-direction: row;
   }
-  .gh-logo1 {
+  .gh-logo {
     color: #000000;
   }
 }

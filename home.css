@@ -27,7 +27,6 @@
   align-self: center;
   align-items: center;
   padding-top: var(--dl-space-space-threeunits);
-  padding-left: var(--dl-space-space-fiveunits);
   padding-right: var(--dl-space-space-fiveunits);
   padding-bottom: var(--dl-space-space-threeunits);
   justify-content: space-between;
@@ -202,13 +201,15 @@
     padding-top: 0px;
   }
   .home-navbar {
-    top: -15px;
+    top: -22px;
     flex: 1;
-    left: 48px;
-    width: 1571px;
+    left: 31px;
+    width: 1496px;
     margin: auto;
     position: absolute;
     margin-top: 0px;
+    padding-left: 0px;
+    padding-right: 4px;
   }
   .home-navlink {
     color: rgb(255, 255, 255);
