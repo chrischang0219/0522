@@ -5,12 +5,15 @@
   min-height: 100vh;
   align-items: center;
   flex-direction: column;
+  background-color: #B9B9B9;
 }
 .page-navbar {
+  top: -8px;
+  left: 28px;
   color: #ffffff;
-  width: 1800px;
+  width: var(--dl-size-size-maxwidth);
   display: flex;
-  position: relative;
+  position: absolute;
   max-width: var(--dl-size-size-maxwidth);
   align-self: center;
   align-items: center;
@@ -19,9 +22,13 @@
   padding-bottom: var(--dl-space-space-threeunits);
   justify-content: space-between;
 }
+.page-navlink {
+  display: contents;
+}
 .page-image {
   width: 200px;
   object-fit: cover;
+  text-decoration: none;
 }
 .page-desktop-menu {
   display: flex;
@@ -34,10 +41,6 @@
   align-items: center;
   flex-direction: row;
 }
-.page-navlink {
-  color: rgb(255, 255, 255);
-  text-decoration: none;
-}
 .page-navlink1 {
   color: rgb(255, 255, 255);
   text-decoration: none;
@@ -47,6 +50,10 @@
   text-decoration: none;
 }
 .page-navlink3 {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+.page-navlink4 {
   color: rgb(255, 255, 255);
   text-decoration: none;
 }
@@ -65,12 +72,12 @@
   justify-content: center;
 }
 .page-image1 {
-  width: 100px;
+  width: 20px;
   object-fit: cover;
   text-decoration: none;
 }
 .page-image2 {
-  width: 100px;
+  width: 20px;
   object-fit: cover;
   text-decoration: none;
 }
@@ -173,75 +180,4 @@
 .page-icon08 {
   width: var(--dl-size-size-xsmall);
   height: var(--dl-size-size-xsmall);
-}
-@media(max-width: 1600px) {
-  .page-container {
-    background-color: #b9b9b9;
-  }
-  .page-navbar {
-    top: -22px;
-    flex: 1;
-    left: 31px;
-    width: 1496px;
-    margin: auto;
-    position: absolute;
-    margin-top: 0px;
-    padding-left: 0px;
-    padding-right: 4px;
-  }
-  .page-navlink {
-    color: rgb(255, 255, 255);
-    text-decoration: none;
-  }
-  .page-navlink1 {
-    color: rgb(255, 255, 255);
-    text-decoration: none;
-  }
-  .page-navlink2 {
-    color: rgb(255, 255, 255);
-  }
-  .page-navlink3 {
-    color: rgb(255, 255, 255);
-  }
-  .page-image1 {
-    width: 20px;
-    height: 20px;
-  }
-  .page-image2 {
-    width: 20px;
-    height: 20px;
-  }
-}
-@media(max-width: 991px) {
-  .page-desktop-menu {
-    display: none;
-  }
-  .page-btn-group {
-    display: none;
-  }
-  .page-burger-menu {
-    display: flex;
-  }
-  .page-button {
-    display: flex;
-    padding: var(--dl-space-space-unit);
-    flex-direction: row;
-  }
-  .page-logo {
-    color: #000000;
-  }
-}
-@media(max-width: 767px) {
-  .page-navbar {
-    padding-left: var(--dl-space-space-twounits);
-    padding-right: var(--dl-space-space-twounits);
-  }
-}
-@media(max-width: 479px) {
-  .page-navbar {
-    padding: var(--dl-space-space-unit);
-  }
-  .page-mobile-menu {
-    padding: 16px;
-  }
 }
