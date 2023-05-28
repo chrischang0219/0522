@@ -31,9 +31,13 @@
   padding-bottom: var(--dl-space-space-threeunits);
   justify-content: space-between;
 }
+.home-navlink {
+  display: contents;
+}
 .home-image {
   width: 200px;
   object-fit: cover;
+  text-decoration: none;
 }
 .home-desktop-menu {
   display: flex;
@@ -46,10 +50,6 @@
   align-items: center;
   flex-direction: row;
 }
-.home-navlink {
-  color: rgb(255, 255, 255);
-  text-decoration: none;
-}
 .home-navlink1 {
   color: rgb(255, 255, 255);
   text-decoration: none;
@@ -59,6 +59,10 @@
   text-decoration: none;
 }
 .home-navlink3 {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+.home-navlink4 {
   color: rgb(255, 255, 255);
   text-decoration: none;
 }
@@ -211,18 +215,18 @@
     padding-left: 0px;
     padding-right: 4px;
   }
-  .home-navlink {
-    color: rgb(255, 255, 255);
-    text-decoration: none;
-  }
   .home-navlink1 {
     color: rgb(255, 255, 255);
     text-decoration: none;
   }
   .home-navlink2 {
     color: rgb(255, 255, 255);
+    text-decoration: none;
   }
   .home-navlink3 {
+    color: rgb(255, 255, 255);
+  }
+  .home-navlink4 {
     color: rgb(255, 255, 255);
   }
   .home-image1 {
