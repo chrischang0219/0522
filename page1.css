@@ -1,24 +1,12 @@
-.home-container {
+.page1-container {
   width: 100%;
   display: flex;
   overflow: auto;
   min-height: 100vh;
   align-items: center;
-  border-color: #000000;
-  border-width: 1px;
   flex-direction: column;
-  background-color: #4e6d6d;
 }
-.home-divider-image {
-  top: 139px;
-  left: -5px;
-  width: 1608px;
-  height: 1163px;
-  margin: auto;
-  position: absolute;
-  object-fit: cover;
-}
-.home-navbar {
+.page1-navbar {
   color: #ffffff;
   width: 1800px;
   display: flex;
@@ -32,14 +20,16 @@
   padding-bottom: var(--dl-space-space-threeunits);
   justify-content: space-between;
 }
-.home-image {
-  width: 200px;
-  object-fit: cover;
+.page1-logo {
+  color: rgb(255, 255, 255);
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
 }
-.home-desktop-menu {
+.page1-desktop-menu {
   display: flex;
 }
-.home-nav {
+.page1-nav {
   gap: var(--dl-space-space-twounits);
   flex: 0 0 auto;
   color: #ffffff;
@@ -47,56 +37,56 @@
   align-items: center;
   flex-direction: row;
 }
-.home-navlink {
+.page1-navlink {
   color: rgb(255, 255, 255);
   text-decoration: none;
 }
-.home-navlink1 {
+.page1-navlink1 {
   color: rgb(255, 255, 255);
   text-decoration: none;
 }
-.home-navlink2 {
+.page1-navlink2 {
   color: rgb(255, 255, 255);
   text-decoration: none;
 }
-.home-navlink3 {
+.page1-navlink3 {
   color: rgb(255, 255, 255);
   text-decoration: none;
 }
-.home-btn-group {
+.page1-btn-group {
   gap: var(--dl-space-space-fourunits);
   display: flex;
   align-items: center;
   flex-direction: row;
   justify-content: center;
 }
-.home-socials {
+.page1-socials {
   gap: var(--dl-space-space-unit);
   display: flex;
   align-items: center;
   flex-direction: row;
   justify-content: center;
 }
-.home-image1 {
+.page1-image {
   width: 100px;
   object-fit: cover;
   text-decoration: none;
 }
-.home-image2 {
+.page1-image1 {
   width: 100px;
   object-fit: cover;
   text-decoration: none;
 }
-.home-burger-menu {
+.page1-burger-menu {
   display: none;
   align-items: center;
   justify-content: center;
 }
-.home-icon {
+.page1-icon {
   width: var(--dl-size-size-xsmall);
   height: var(--dl-size-size-xsmall);
 }
-.home-mobile-menu {
+.page1-mobile-menu {
   top: 0px;
   left: 0px;
   width: 100%;
@@ -111,55 +101,55 @@
   justify-content: space-between;
   background-color: #fff;
 }
-.home-nav1 {
+.page1-nav1 {
   display: flex;
   align-items: flex-start;
   flex-direction: column;
 }
-.home-container1 {
+.page1-container1 {
   width: 100%;
   display: flex;
   align-items: center;
   margin-bottom: var(--dl-space-space-threeunits);
   justify-content: space-between;
 }
-.home-logo {
+.page1-logo1 {
   color: rgb(255, 255, 255);
   font-size: 32px;
   font-style: normal;
   font-weight: 600;
 }
-.home-menu-close {
+.page1-menu-close {
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.home-icon02 {
+.page1-icon02 {
   width: var(--dl-size-size-xsmall);
   height: var(--dl-size-size-xsmall);
 }
-.home-nav2 {
+.page1-nav2 {
   flex: 0 0 auto;
   display: flex;
   align-items: flex-start;
   flex-direction: column;
 }
-.home-text {
+.page1-text {
   margin-bottom: var(--dl-space-space-unit);
 }
-.home-text1 {
+.page1-text1 {
   margin-bottom: var(--dl-space-space-unit);
 }
-.home-text2 {
+.page1-text2 {
   margin-bottom: var(--dl-space-space-unit);
 }
-.home-text3 {
+.page1-text3 {
   margin-bottom: var(--dl-space-space-unit);
 }
-.home-text4 {
+.page1-text4 {
   margin-bottom: var(--dl-space-space-unit);
 }
-.home-container2 {
+.page1-container2 {
   flex: 0 0 auto;
   width: auto;
   display: flex;
@@ -167,102 +157,93 @@
   align-items: center;
   flex-direction: row;
 }
-.home-login {
+.page1-login {
   margin-right: var(--dl-space-space-twounits);
 }
-.home-icon-group {
+.page1-icon-group {
   display: flex;
 }
-.home-icon04 {
+.page1-icon04 {
   width: var(--dl-size-size-xsmall);
   height: var(--dl-size-size-xsmall);
   margin-right: var(--dl-space-space-twounits);
 }
-.home-icon06 {
+.page1-icon06 {
   width: var(--dl-size-size-xsmall);
   height: var(--dl-size-size-xsmall);
   margin-right: var(--dl-space-space-twounits);
 }
-.home-icon08 {
+.page1-icon08 {
   width: var(--dl-size-size-xsmall);
   height: var(--dl-size-size-xsmall);
 }
 @media(max-width: 1600px) {
-  .home-container {
-    background-color: #b9b9b9;
+  .page1-container {
+    border-color: var(--dl-color-gray-black);
+    border-width: 1px;
+    background-color: #B9B9B9;
   }
-  .home-divider-image {
-    left: 0px;
-    right: 0px;
-    width: 1598px;
-    bottom: -258px;
-    height: 1130px;
-    position: static;
-    align-self: center;
-    padding-top: 0px;
-  }
-  .home-navbar {
-    top: -15px;
+  .page1-navbar {
+    top: -12px;
     flex: 1;
-    left: 48px;
+    left: 59px;
     width: 1571px;
-    margin: auto;
     position: absolute;
     margin-top: 0px;
   }
-  .home-navlink {
+  .page1-navlink {
     color: rgb(255, 255, 255);
     text-decoration: none;
   }
-  .home-navlink1 {
+  .page1-navlink1 {
     color: rgb(255, 255, 255);
     text-decoration: none;
   }
-  .home-navlink2 {
+  .page1-navlink2 {
     color: rgb(255, 255, 255);
   }
-  .home-navlink3 {
+  .page1-navlink3 {
     color: rgb(255, 255, 255);
   }
-  .home-image1 {
+  .page1-image {
     width: 20px;
     height: 20px;
   }
-  .home-image2 {
+  .page1-image1 {
     width: 20px;
     height: 20px;
   }
 }
 @media(max-width: 991px) {
-  .home-desktop-menu {
+  .page1-desktop-menu {
     display: none;
   }
-  .home-btn-group {
+  .page1-btn-group {
     display: none;
   }
-  .home-burger-menu {
+  .page1-burger-menu {
     display: flex;
   }
-  .home-button {
+  .page1-button {
     display: flex;
     padding: var(--dl-space-space-unit);
     flex-direction: row;
   }
-  .home-logo {
+  .page1-logo1 {
     color: #000000;
   }
 }
 @media(max-width: 767px) {
-  .home-navbar {
+  .page1-navbar {
     padding-left: var(--dl-space-space-twounits);
     padding-right: var(--dl-space-space-twounits);
   }
 }
 @media(max-width: 479px) {
-  .home-navbar {
+  .page1-navbar {
     padding: var(--dl-space-space-unit);
   }
-  .home-mobile-menu {
+  .page1-mobile-menu {
     padding: 16px;
   }
 }
